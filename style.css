@@ -1,0 +1,185 @@
+/* Napisz pod spodem swoje reguły  */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header, nav, .logo, .menu {
+    /*border: 1px solid red;*/
+}
+.main_navigation {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    padding: 20px;
+}
+.logo {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ea6c56;
+    font-size: 20px;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.menu li a {
+    text-decoration: none;
+    color: #424343;
+    font-size: 18px;
+}
+.jumbotron {
+    background-image: url(../images/main-background-img.jpg);
+    height: 630px;
+    text-align:center;
+    padding-top: 120px;
+}
+.jumbotron h1 {
+    color: white;
+    text-shadow: 2px 2px 2px #424343;
+    font-weight: 600;
+    font-size: 70px;
+}
+.jumbotron a {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px 25px;
+    color: #0e3655;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 1px 2px 2px #7f7f7f;
+    transition: 1s;
+}
+.jumbotron a:hover {
+    background-color: #337ab7;
+    color: white;
+}
+.main_points {
+    display:flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.main_points article {
+    width: 25%;
+    /*min-height: 200px;*/
+    border: 1px solid red;
+}
+.main_points .circle {
+    width: 150px;
+    height: 150px;
+    display: block;
+    border-radius: 50%;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+.main_points .heart {
+    background-color: #fdc00f;
+    background-image: url('../images/heart.png');
+}
+.main_points .puzzle {
+    background-color: #44ca85;
+    background-image: url('../images/puzzle.png')
+}
+.main_points .star {
+    background-color: #4bafd2;
+    background-image: url('../images/star.png')
+}
+.main_points h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ea6c56;
+    margin-top: 20px;
+}
+.main_points p {
+    font-size: 14px;
+    color: #424343;
+}
+.main_points .read_more {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #424343;
+    transition: 1s;
+}
+.main_points .read_more:hover {
+    color: #ea6c56;
+    cursor: pointer;
+}
+.action_plan {
+    background-image: url(../images/plan-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    width: 100%;
+    padding: 3% 8%;
+}
+.action_plan h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.action_plan h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.action_plan p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #c8cdd1;
+    margin-top: 30px;
+}
+.container {
+    width: 65%;
+    margin: 0 auto;
+}
+.list-container {
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 30px;
+  padding: 30px;
+}
+.list-container .input-group {
+  display: flex;
+}
+.list-container .input-group .add-task-btn {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ea6c56;
+    border-radius: 0 4px 4px 0;
+    position: center;
+    height: 48px;
+    width: 30%;
+    padding: 8px;
+}
+.list-container .input-group .form-control{
+    width: 70%;
+    height: 34px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+.list-container .list-group {
+    font-size: 15px;
+    font-weight: 600;
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+.list-container .list-group li {
+    background-color: #f58122;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+

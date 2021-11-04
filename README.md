@@ -1,7 +1,12 @@
 My Website Project
 
-style.css not working, because of the bad path - it's first version MWP, make by platform Codio according to Coders Lab courses
 
-added package with new images by Coders Lab to the website, need to make correct style and graphics
+It is the first version MWP. The website was made on the platform Codio according to Coders Lab courses.
 
-test version - work in progress...
+
+Work in progress...
+
+To do list:
+1. new background
+2. modern button
+3. improve description

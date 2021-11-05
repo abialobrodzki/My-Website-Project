@@ -31,7 +31,7 @@ header, nav, .logo, .menu {
     font-size: 18px;
 }
 .jumbotron {
-    background-image: url(images/main-background-img.jpg);
+    background-image: url(../images/main-background-img.jpg);
     height: 630px;
     text-align: center;
     padding-top: 120px;
@@ -59,13 +59,14 @@ header, nav, .logo, .menu {
     color: white;
 }
 .main_points {
+    background-image: url(../images/internet-things.png); /*trzeba poprawić opcje wyświetlania - jeden rysunek*/
     display:flex;
     justify-content: space-around;
     padding: 40px;
 }
 .main_points article {
     width: 25%;
-    /*min-height: 200px;*/
+    min-height: 540px; /*wysokość pola z 3 kolumnami*/
     border: 1px solid red;
 }
 .main_points .circle {
@@ -105,6 +106,8 @@ header, nav, .logo, .menu {
     font-weight: 600;
     color: #424343;
     transition: 1s;
+    margin: 10px;
+    margin-top: auto;
 }
 .main_points .read_more:hover {
     color: #ea6c56;

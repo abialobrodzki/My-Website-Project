@@ -8,5 +8,4 @@ Work in progress...
 
 To do list:
 1. new background
-2. modern button
-3. improve description
+2. improve description

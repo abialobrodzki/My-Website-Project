@@ -41,7 +41,7 @@ header, nav, .logo, .menu {
     color: #ffda00;
 }
 .jumbotron {
-    background-image: url('../images/main-background-img.jpg');
+    background-image: url("images/main-background-img.jpg");
     height: 630px;
     text-align: center;
     padding-top: 120px;
@@ -69,7 +69,7 @@ header, nav, .logo, .menu {
     color: white;
 }
 .main_points {
-    background-image: url('../images/internet-things.png');
+    background-image: url("images/internet-things.png");
     background-repeat: repeat-x;
     background-position: center;
     background-size: 25%;
@@ -79,7 +79,7 @@ header, nav, .logo, .menu {
     padding: 40px;
 }
 .main_points article {
-    background-image: url('../speed.jpg');
+    background-image: url("images/speed.jpg"); /*nowy obrazek dodać - kolumny*/
     width: 25%;
     min-height: 540px; /*wysokość pola z 3 kolumnami*/
     border: 1px solid red;
@@ -96,15 +96,15 @@ header, nav, .logo, .menu {
 }
 .main_points .heart {
     background-color: #fdc00f;
-    background-image: url('../images/heart.png');
+    background-image: url("images/heart.png");
 }
 .main_points .puzzle {
     background-color: #44ca85;
-    background-image: url('../images/puzzle.png')
+    background-image: url("images/puzzle.png")
 }
 .main_points .star {
     background-color: #4bafd2;
-    background-image: url('../images/star.png')
+    background-image: url("images/star.png")
 }
 .main_points h3 {
     font-weight: 600;
@@ -129,7 +129,7 @@ header, nav, .logo, .menu {
     cursor: pointer;
 }
 .action_plan {
-    background-image: url('../images/plan-background.jpg');
+    background-image: url("images/plan-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 640px;

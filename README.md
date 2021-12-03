@@ -9,3 +9,4 @@ Work in progress...
 To do list:
 1. new background
 2. improve description
+3. diablo site - new conception of my website (classes, runes, tips etc.)^^

@@ -4,18 +4,25 @@
     <meta charset="utf-8"> <!-- kodowanie strony -->
     <meta name="keywords" content="key1, key2"> <!-- opis strony -->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- opis skalowania -->
-    <title>Druga strona www</title> <!-- tytuł strony -->
+    <title>Materiały do nauki</title> <!-- tytuł strony -->
     <link rel="stylesheet" href="style2.css"> <!-- link do pliku CSS -->
 </head>
 <body>
-    <a href="#section1"> Przejdź do sekcji 1 </a> <!-- link do sekcji strony -->
+    <p id="spis"> Spis treści: </p>
+    <ol>
+        <li><a href="#hiperłącza"> Hiperłącza </a></li> <!-- link do sekcji strony -->
+        <li><a href="#nagłówki"> Nagłówki </a></li>
+        <li><a href="#akapity"> Akapity </a></li>
+        <li><a href="#zspecjalne"> Znaki specjalne </a></li>
+    </ol>
     <br>
+    
+    <p id="nagłówki"> Nagłówki: <a href="#spis"> spis treści </a></p> 
     <div class="header">
             <h1>
-                To jest nagłówek <span>pierwszego</span> rzędu
+                To jest nagłówek<span>pierwszego</span>rzędu
             </h1>
     </div>
-    <p>Nagłówki:</p>
     <h1>Witaj na mojej stronie</h1> <!-- nagłówki "h1-h6" -->
     <h2>O mnie</h2>
     <h3>Moje projekty</h3>
@@ -23,14 +30,14 @@
     <h5>Moje projekty</h5>
     <h6>Moje projekty</h6>
     
-    <h1>Pan Tadeusz</h1> 
+    <p id="akapity"> Akapity: <a href="#spis"> spis treści </a></p>
+    <h1>Pan Tadeusz</h1>
     <p> Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię trzeba cenić...
     </p> <!-- akapity "p" -->
-   <!-- niełamliwa spacja "&nbsp;" --> 
     <p> Litwo!&nbsp;Ojczyzno&nbsp;moja!&nbsp;Ty&nbsp;jesteś&nbsp;jak&nbsp;zdrowie.&nbsp;Ile&nbsp;cię&nbsp;trzeba&nbsp;cenić...
-    </p>
+    </p><!-- niełamliwa spacja "&nbsp;" -->
     
-    <p>Znaki specjalne:</p> <!-- znaki specjalne -->
+    <p id="zspecjalne"> Znaki specjalne: <a href="#spis"> spis treści </a></p> <!-- znaki specjalne -->
     &nbsp; <!-- niełamliwa spacja (non-breaking space) -->
     &trade; <!-- znak handlowy (trade mark sign) -->
     &lt; <!-- znak mniejszy niż (less-than sign) -->
@@ -38,6 +45,7 @@
     &copy; <!-- znak copyright (copyright sign) -->
     &reg; <!-- zastrzeżony znak handlowy (registered sign) -->
     &alpha; <!-- mała grecka litera alfa -->
+    
     <p> Sprawdzamy, jak przeglądarka interpretuje białe znaki. Do przełamania linii należy użyć <br> line break.
     </p> <!-- nowa linia "br" -->
     <p> Radziwiłł z których później odkładać goście proszeni.
@@ -107,8 +115,7 @@
     <br>
     <iframe src="http://www.coderslab.pl"> Szkoła programowania </iframe> <!-- ramka pływająca "iframe" -->
     <br>
-    <p id="section1"> Lorem ipsum dolor sit amet 
-    </p> <!-- oznaczenie linka do sekcji strony -->
+    <p id="hiperłącza"> Lorem ipsum dolor sit amet </p> <!-- oznaczenie linka do sekcji strony -->
     <br>
     <a href="index.html"> Przejdź do podstrony 1 </a>
     <a href="index2.html"> Przejdź do podstrony 2 </a>

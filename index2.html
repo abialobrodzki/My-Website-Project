@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="pl-PL"> <!-- język strony -->
+<head>
+    <meta charset="utf-8"> <!-- kodowanie strony -->
+    <meta name="keywords" content="key1, key2"> <!-- opis strony -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- opis skalowania -->
+    <title>Druga strona www</title> <!-- tytuł strony -->
+    <link rel="stylesheet" href="style2.css"> <!-- link do pliku CSS -->
+</head>
+<body>
+    <a href="#section1"> Przejdź do sekcji 1 </a> <!-- link do sekcji strony -->
+    <br>
+    <div class="header">
+            <h1>
+                To jest nagłówek <span>pierwszego</span> rzędu
+            </h1>
+    </div>
+    <p>Nagłówki:</p>
+    <h1>Witaj na mojej stronie</h1> <!-- nagłówki "h1-h6" -->
+    <h2>O mnie</h2>
+    <h3>Moje projekty</h3>
+    <h4>Moje projekty</h4>
+    <h5>Moje projekty</h5>
+    <h6>Moje projekty</h6>
+    
+    <h1>Pan Tadeusz</h1> 
+    <p> Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię trzeba cenić...
+    </p> <!-- akapity "p" -->
+   <!-- niełamliwa spacja "&nbsp;" --> 
+    <p> Litwo!&nbsp;Ojczyzno&nbsp;moja!&nbsp;Ty&nbsp;jesteś&nbsp;jak&nbsp;zdrowie.&nbsp;Ile&nbsp;cię&nbsp;trzeba&nbsp;cenić...
+    </p>
+    
+    <p>Znaki specjalne:</p> <!-- znaki specjalne -->
+    &nbsp; <!-- niełamliwa spacja (non-breaking space) -->
+    &trade; <!-- znak handlowy (trade mark sign) -->
+    &lt; <!-- znak mniejszy niż (less-than sign) -->
+    &gt; <!-- znak większy niż (greater-than sign) -->
+    &copy; <!-- znak copyright (copyright sign) -->
+    &reg; <!-- zastrzeżony znak handlowy (registered sign) -->
+    &alpha; <!-- mała grecka litera alfa -->
+    <p> Sprawdzamy, jak przeglądarka interpretuje białe znaki. Do przełamania linii należy użyć <br> line break.
+    </p> <!-- nowa linia "br" -->
+    <p> Radziwiłł z których później odkładać goście proszeni.
+    </p>
+    <hr> <!-- linia horyzontalna "hr" -->
+    <p> Ty, co Francuz wymyśli, to mówiąc, że słuchał rozmowy.
+    </p>
+    <p> W tym zdaniu pewne <strong>słowo</strong> ma bardzo dużą wagę. Część kolejnego zdania <em>warta jest pochylenia</em>. 
+    </p> <!-- HTML 5 pogrubienie "strong" oraz pochylenie "em" --> 
+    <p> W tym zdaniu pewne <b>słowo</b> ma bardzo dużą wagę. Większa część kolejnego zdania <i>warta jest zaznaczenia poprzez pochylenie</i>.
+    </p> <!-- bez wzmconienia znaczenia (HTML5) pogrubienie "b" oraz pochylenie "i" -->
+    <p>
+        Duży,
+        <small>
+            mniejszy,
+            <small>
+                najmniejszy
+            </small>
+        </small>.
+    </p> <!-- pomniejszanie "small" -->
+    <p> Myślę, że powinniście <mark>zwrócić na to uwagę</mark>.
+    </p> <!-- znacznik "mark" -->
+    <p> Chemik wie, że wzór sumaryczny kwasu siarkowego to H<sub>2</sub>SO<sub>4</sub>. Matematyk wie, że 2<sup>0</sup> = 1.
+    </p> <!-- indeks górny "sup" oraz indeks dolny "sub" -->
+    <p> <s>Oferta aktualna tylko do poniedziałku!</s>
+    </p> <!-- przekreślenie "s" -->
+    <p> Zajmuję się fotografią natury, <del>ślubną</del> <ins>głębinową</ins>.<br> Cena za sesję to <del>98,94 zł</del><ins>86,00 zł</ins>.</p> <!-- widoczne zastąpienie tekstu: przekreślenie "del" oraz wstawienie "ins" -->
+    <ol>
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+    </ol> <!-- list uporządkowana "ol" -->
+    <ul>
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+    </ul> <!-- list nieuporządkowana "li" -->
+    <dl>
+        <dt>Pojęcie 1</dt>
+        <dd>Definicja pojęcia 1</dd>
+        <dt>Pojęcie 2</dt>
+        <dt>Pojęcie 3</dt>
+        <dd>Definicja pojęcia 2 i 3</dd>
+        <dt>Pojęcie 4</dt>
+        <dd>Pierwsza definicja pojęcia 4</dd>
+        <dd>Druga definicja pojęcia 4</dd>
+    </dl> <!-- list definicji "dl" -->
+    <ol>
+        <li>
+            Element 1
+            <ul>
+                <li>Podpunkt 1.1</li>
+                <li>Podpunkt 1.2</li>
+            </ul>
+        </li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+    </ol> <!-- zagnieżdzanie list -->
+    
+    <a>Tekst linka</a> <!-- treść hiperłącza "a" -->
+    <br>
+    <a href="http://www.coderslab.pl">Szkoła programowania</a> <!-- źródło "href" -->
+    <br>
+    <a href="http://www.coderslab.pl" rel="nofollow"> Szkoła programowania </a> <!-- pozycjonowanie podążaj "follow" lub nie podążaj "nofollow" -->
+    <br>
+    <a href="http://www.coderslab.pl" target="_blank"> Szkoła programowania </a> <!-- otwarcie linku nowa karta "_blank" lub ta sama karta "_self" -->
+    <br>
+    <iframe src="http://www.coderslab.pl"> Szkoła programowania </iframe> <!-- ramka pływająca "iframe" -->
+    <br>
+    <p id="section1"> Lorem ipsum dolor sit amet 
+    </p> <!-- oznaczenie linka do sekcji strony -->
+    <br>
+    <a href="index.html"> Przejdź do podstrony 1 </a>
+    <a href="index2.html"> Przejdź do podstrony 2 </a>
+    <a href="#"> Link do bieżącej strony </a> <!-- link do podstron -->
+    <p>Obrazki:</p>
+    <img src="images/diablo2.png">
+    <img src="images/diablo3.png"> <!-- dodanie obrazka -->
+    <img src="images/diablo2.png" width="150" height="100">
+    <p> Starzy na miejscu swem siadł przy damach obok Korsak, towarzysz jego wiernym ludem!
+    </p>
+    <img src="images/diablo3.png"><p> W końcu, stawiła przed Kusym o malarstwie o rzeźbiarstwie!
+    </p> <!-- szerokość i wysokość obrazka -->
+    <img src="images/diablo2.png" alt="Logo Diablo 2" width="150" height="100">
+    <img src="images/diablo3.png" alt="Logo Diablo 3" width="150" height="100"> <!-- tekst alternatywny obrazka - do indeksowania/pozycjonowania Google -->
+    <img src="images/diablo2.png" alt="Logo Diablo 2" width="150" height="100" title="Logo Diablo 2"> <!-- opis obrazka po najechaniu kursorem -->
+    
+    <p>Tabele:</p>
+    <table>
+        <tr>
+            <td>1.1.</td>
+            <td>1.2.</td>
+        </tr>
+        <tr>
+            <td>2.1.</td>
+            <td>2.2.</td>
+        </tr>
+    </table> <!-- tabela -->
+    <table>
+        <tr>
+            <th>kolumna 1</th>
+            <th>kolumna 2</th>
+        </tr>
+        <tr>
+            <td>1.1.</td>
+            <td>1.2.</td>
+        </tr>
+        <tr>
+            <td>2.1.</td>
+            <td>2.2.</td>
+        </tr>
+    </table> <!-- tabela z nagłówkami -->
+    <table>
+        <tr>
+            <th scope="col">skrót</th>
+            <th scope="col">imię i nazwisko</th>
+            <th scope="col">miejsce urodzenia</th>
+            <th scope="col">rozpoczęcie działalności</th>
+        </tr>
+        <tr>
+            <th scope="row">Drake</th>
+            <td>Aubrey Drake Graham</td>
+            <td>Toronto</td>
+            <td>2001</td>
+        </tr>
+        <tr>
+            <th scope="row">Rihanna</th>
+            <td>Robyn Rihanna Fenty</td>
+            <td>Saint Michael</td>
+            <td>2005</td>
+        </tr>
+    </table> <!-- tabela z określonym zasięgiem nagłówków "scope" -->
+    <table border="1">
+        <tr>
+            <th></th>
+            <th scope="col">Język</th>
+            <th scope="col">Ludność</th>
+        </tr>
+        <tr>
+            <th scope="row">Niemcy</th>
+            <td rowspan="2">niemiecki</td>
+            <td>80,62</td>
+        </tr>
+        <tr>
+            <th scope="row">Austria</th>
+            <td>8,475</td>
+        </tr>
+    </table> <!-- tabela z połączonymi kolumnami "colspan" lub wierszy "rowspan" -->
+    <table>
+        <thead>
+            <tr><!-- Zawartość nagłówka tabeli --></tr>
+        </thead>
+        <tbody>
+            <tr><!-- Zawartość ciała tabeli --></tr>
+        </tbody>
+        <tfoot>
+            <tr><!-- Zawartość stopki tabeli --></tr>
+        </tfoot>
+    </table> <!-- sekcje tabeli "thead" "tbody" "tfoot" - stylowanie CSS -->
+    
+    <h3>Nagłówek to element blokowy</h3>
+    <div>
+        <a href="http://google.com">Link jest elementem liniowym</a>.
+        W jednej linii można wyświetlić <strong>wiele elementów liniowych</strong>.
+    </div>
+    <p>Paragraf jest elementem blokowym.</p>
+    <ul>
+        <li>Lista jest również elementem blokowym.</li>
+        <li>W elementach blokowych można umieszczać
+            <em>elementy liniowe.</em>
+        </li>
+    </ul> <!-- elementy liniowe (tyle ile potrzebują) a elementy blokowe (cała dostępna szerokość) -->
+    <h3 id="smallHeader">Nagłówek z id</h3>
+    <a href="http://google.com" id="link"> Link również może mieć swój identyfikator</a>
+    <p id="text">Paragraf z identyfikatorem</p> <!-- identyfikatory "id" - unikalny element -->
+    <h3 class="smallHeader">Nagłówek z klasą</h3>
+    <a href="http://google.com" class="link text"> Ten link ma dwie klasy </a>
+    <p class="text"> Paragraf ma tę samą klasę co powyższy link </p> <!-- klasy "class" - unikalna grupa elementów -->
+    
+    <p>Stylowanie CSS:</p>
+    <p style="letter-spacing: 2px; word-spacing: 5px;"> Wygląd tego paragrafu jest określany za pomocą styli liniowych.</p> <!-- CSS dodane w HTML -->
+    <p style="letter-spacing: 2px; word-spacing: 5px;"> Pierwszy paragraf</p>
+    <p style="letter-spacing: 2px; word-spacing: 5px;"> Drugi paragraf</p> <!-- style CSS najbliżej tagu -->
+    <p id="intro"> Ten paragraf oznaczyłem za pomocą identyfikatora intro. Będzie on zmieniony za pomocą stylowania css.</p> <!-- identyfikator zmieniony w CSS -->
+    <h2 class="content">Nagłówek ma klasę content.</h2>
+    <p class="content">Ten paragraf oznaczyłem za pomocą klasy content.</p>
+    <p class="content">Następny paragraf także oznaczyłem za pomocą klasy content.</p> <!-- klasa zmieniona w CSS -->
+    <ul>
+        <li>pierwszy</li>
+        <li>drugi</li>
+    </ul>
+    <p class="shadow"> Tekst z cieniem </p> <!-- klasa zmieniona w CSS -->
+    <div class="myClass">
+        <p>Lorem ipsum...</p>
+    </div> <!-- dziedziczenie styli po zagnieżdzeniu -->
+    <p> Jestem zwykłym paragrafem.</p>
+    <p class="withBackground2">A ja mam klasę. ;-)</p> <!-- kaskadowość CSS -->
+    <p class="withBackground1"> Jestem zwykłym paragrafem.</p>
+    <p class="withBackground2"> A ja mam klasę. ;-)</p> <!-- kaskadowość CSS nadpisane -->
+    <section>
+        <h1 class="k1">Nagłówek</h1>
+        <h2 class="k2">Nagłówek</h2>
+        <h3 class="k3">Nagłówek</h3>
+    </section> <!-- jednostki relatywne "%","em","rem" -->
+    <p class="czcionka"> Tekst z inna czcionką. Tekst z inna czcionką. </p> <!-- klasa ze zmienioną czionką -->
+    
+    <p>Formularze:</p>
+    <form>
+        <fieldset>
+            <legend>Twoje dane</legend>
+            <label>Imię:
+                <input type="text" name="username" placeholder="Podaj imię">
+            </label>
+            <label>Email:
+                <input type="email" name="useremail" placeholder="Podaj email">
+            </label>
+            <input type="submit" value="Wyślij">
+        </fieldset>
+    </form> <!-- formularz -->
+    <form>
+        <label>Wyrażam zgodę
+            <input type="checkbox" name="agreement">
+        </label>
+        <br>
+        <label>Zamawiam produkt
+            <input type="checkbox" name="orderproduct" checked>
+        </label>
+    </form> <!-- checkbox -->
+    <form>
+        <fieldset>
+            <legend>Wybierz opcje dodatkowe</legend>
+            <label>Pierwszeństwo wejścia na pokład
+                <input type="checkbox" name="extras" value="priorityboarding">
+            </label><br>
+            <label>Ubezpieczenie bagażu podróżnego
+                <input type="checkbox" name="extras" value="luggageinsurance">
+            </label>
+        </fieldset>
+    </form> <!-- wybór wielokrotny -->
+    <form>
+        <fieldset>
+            <legend>Wybierz preferowane miejsce</legend>
+            <label>Przy oknie
+                <input type="radio" name="seats" value="window">
+            </label><br>
+            <label>Przy korytarzu
+                <input type="radio" name="seats" value="corridor">
+            </label>
+        </fieldset>
+    </form> <!-- wybór jednokrotny -->
+    <form>
+        <fieldset>
+            <label>
+                Twoje uwagi:
+                <textarea cols="50" rows="10"></textarea>
+            </label>
+            <input type="submit" value="Zapisz">
+        </fieldset>
+    </form> <!-- pole tekstowe -->
+
+</body>
+</html>

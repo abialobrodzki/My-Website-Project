@@ -1,0 +1,58 @@
+#intro {
+    color: red;
+    font-size: 24px;
+    border: 1px solid black;
+}
+.content {
+    color: #00f;
+    font-weight: bold;
+    font-style: italic;
+}
+ul {
+    list-style-type: square;
+}
+p.shadow {
+    text-align: center;
+    text-shadow: 1px 1px;
+}
+.myClass {
+    font-size: 28px;
+    border: 1px groove black;
+}
+p.withBackground1 {
+    color: blue;
+}
+p.withBackground2 {
+    background-color: green;
+}
+p.withBackground1 {
+    background-color: blue;
+}
+p.withBackground2 {
+    background-color: green;
+}
+section {
+    font-size: 20px;
+}
+.k1 {
+    font-size: 2em; /* 20px*2 = 40px */
+}
+.k2 {
+    font-size: 2rem;/* 16px*2 = 32px */
+}
+.k3 {
+    font-size: 210%;
+}
+.czcionka {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: line-through;
+    text-indent: 20px;
+    text-shadow: 0 5px 5px LightGray;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    word-spacing: -1em;
+}
